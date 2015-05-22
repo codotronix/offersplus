@@ -72,14 +72,14 @@ body {
 
 .jcarousel-control-prev, 
 .jcarousel-control-next {
-	background: transparent;
+	background: #ADA8FF;
 	text-decoration: none !important;	
 	color: #FFF !important;
 }
 
 .jcarousel-control-prev:hover, 
 .jcarousel-control-next:hover {
-	background: rgba(255, 255, 255, .3);
+	background: #E8696E;
 }
 
 .jcarousel-control-prev {
@@ -91,7 +91,11 @@ body {
 }
 
 .jcarousel li {
-	border: 2px solid transparent;
+	border: 2px solid #FFF;
+}
+
+.jcarousel li:hover {
+	border-color: orange;
 }
 
 .mainContainer {
@@ -150,11 +154,15 @@ body {
 
 #contentContainer .itemBox a {
 	display: block;
+	height: 100%;
 }
 
 #contentContainer .itemInfo {
+	background: #5BFF7C;
+	height: 110px;
+	overflow: auto;
 	position: absolute;
-	bottom: 0;
+	top: 180px;
 	width: 100%;
 }
 
